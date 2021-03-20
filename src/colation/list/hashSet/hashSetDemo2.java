@@ -1,4 +1,4 @@
-package colation.list.hasSet;
+package colation.list.hashSet;
 
 import colation.list.Student;
 

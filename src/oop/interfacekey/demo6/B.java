@@ -5,6 +5,7 @@ package oop.interfacekey.demo6;
  * @date 2020/8/21
  */
 public interface B {
+    default void methodB(){}
     default void method(){
         System.out.println("BBBBBBBBBBB");
     }

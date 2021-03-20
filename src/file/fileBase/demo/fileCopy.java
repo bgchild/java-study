@@ -1,4 +1,4 @@
-package file.fileBase.demo.fileCopy;
+package file.fileBase.demo;
 
 import java.io.*;
 

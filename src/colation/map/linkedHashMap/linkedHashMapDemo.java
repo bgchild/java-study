@@ -18,6 +18,5 @@ public class linkedHashMapDemo {
         for (Map.Entry<String, String> entry : entries) {
             System.out.println(entry.getKey()+"->"+entry.getValue());
         }
-
     }
 }

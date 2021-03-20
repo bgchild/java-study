@@ -29,7 +29,6 @@ public class WaitAndNotify {
                         System.out.println("---------------------------------------");
                     }
                 }
-
             }
         }.start();
         //创建一个顾客2线程(消费者)

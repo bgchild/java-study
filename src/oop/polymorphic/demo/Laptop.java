@@ -1,7 +1,5 @@
 package oop.polymorphic.demo;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
-
 /**
  * @author Ann00
  * @date 2020/8/21

@@ -5,8 +5,6 @@ package colation.list.linkedList;
  * @date 2020/8/18
  * 方便元素添加、删除的集合
  */
-
-import javax.jws.soap.SOAPBinding;
 import java.util.LinkedList;
 
 /**

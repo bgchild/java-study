@@ -10,7 +10,7 @@ public class TicketRunnable implements Runnable {
     @Override
     public void run() {
         boolean s = true;
-        while (s){
+        while (s) {
             if (ticket > 0) {
                 try {
                     Thread.sleep(100);
@@ -19,7 +19,7 @@ public class TicketRunnable implements Runnable {
                 }
                 String name = Thread.currentThread().getName();
                 System.out.println(name + "正在售卖:" + ticket--);
-            }else {
+            } else {
                 s = false;
             }
         }

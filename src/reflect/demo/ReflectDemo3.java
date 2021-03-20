@@ -52,15 +52,15 @@ public class ReflectDemo3 {
         //创建对象
         Object person = constructor.newInstance("张三", 23);
         System.out.println(person);
-        System.out.println("----------");
+        System.out.println("1----------");
 
         Constructor constructor1 = personClass.getConstructor();
         System.out.println(constructor1);
-        System.out.println("----------");
+        System.out.println("2----------");
         //创建对象
         Object person1 = constructor1.newInstance();
         System.out.println(person1);
-        System.out.println("----------");
+        System.out.println("3----------");
 
         Object o = personClass.newInstance();
         System.out.println(o);
