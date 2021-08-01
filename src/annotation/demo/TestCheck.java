@@ -10,6 +10,7 @@ import java.lang.reflect.Method;
  * 简单的测试框架
  * <p>
  * 当主方法执行后，会自动自行被检测的所有方法(加了Check注解的方法)，判断方法是否有异常，记录到文件中
+ * @author laok
  */
 public class TestCheck {
 
@@ -23,7 +24,7 @@ public class TestCheck {
         Method[] methods = cls.getMethods();
         //出现异常的次数
         int number = 0;
-        BufferedWriter bw = new BufferedWriter(new FileWriter("bug.txt"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("src/annotation/demo/bug.txt"));
 
         for (Method method : methods) {
             //4.判断方法上是否有Check注解

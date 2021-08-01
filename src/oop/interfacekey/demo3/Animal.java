@@ -6,7 +6,6 @@ package oop.interfacekey.demo3;
  */
 public class Animal implements LiveAble {
     // 继承，什么都不用写，直接调用
-
     @Override
     public void fly() {
         System.out.println("飞起来了");

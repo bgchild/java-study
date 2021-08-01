@@ -35,7 +35,7 @@ public class Singleton7 {
         Constructor<Singleton7> declaredConstructor = Singleton7.class.getDeclaredConstructor();
         declaredConstructor.setAccessible(true);
         Singleton7 singleton1 = declaredConstructor.newInstance();
-        f.set(singleton1, false);
+       // f.set(singleton1, false);
         Singleton7 singleton2 = declaredConstructor.newInstance();
         System.out.println(singleton1);
         System.out.println(singleton2);

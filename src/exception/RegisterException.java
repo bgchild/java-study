@@ -1,6 +1,7 @@
 package exception;
 
 /**
+ * 自定义RegisterException
  * @author Ann00
  * @date 2020/8/19
  */

@@ -6,6 +6,6 @@ package oop.interfacekey.demo5;
  */
 public interface A {
     public default void methodA(){
-        System.out.println("AAAAAAAAAAAA");
+        System.out.println("BBBBBBBBBB");
     }
 }

@@ -14,6 +14,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Pro {
     String className();
+
     String methodName();
 }
 

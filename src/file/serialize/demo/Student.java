@@ -10,6 +10,7 @@ public class Student implements Serializable {
 
     private String name;
     private int age;
+    private Girl girl;
 
     public String getName() {
         return name;
@@ -25,6 +26,14 @@ public class Student implements Serializable {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public Girl getGirl() {
+        return girl;
+    }
+
+    public void setGirl(Girl girl) {
+        this.girl = girl;
     }
 
     @Override

@@ -19,8 +19,7 @@ public class TestGc {
             }else{
                 for (int i = 0; i < 10000; i++) {
                     Properties properties = new Properties();
-                    properties.put("key_"+i, "value_" +
-                            System.currentTimeMillis() + i);
+                    properties.put("key_"+i, "value_" + System.currentTimeMillis() + i);
                     list.add(properties);
                 }
             }
